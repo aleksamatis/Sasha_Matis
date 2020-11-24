@@ -1,0 +1,85 @@
+.one {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-wrap: wrap;
+}
+.wrap {
+  display:flex;
+  flex-wrap: nowrap;
+  min-width: 60%;
+}
+@media (max-width: 400px) {
+  .wrap {
+    display:flex;
+    flex-wrap: wrap;
+    min-width: 60%;
+  }
+}
+.border {
+  border: 2px solid#dd5aab;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+input {
+  border: 2px solid#dd5aab;
+}
+input:hover {
+  border: 2px solid #f7abda;
+}
+input:on-click {
+  border: 2px solid #dd5aab;
+}
+.body {
+  display: flex;
+  justify-content: space-between;
+}
+.body-width {
+  margin: 0 auto; 
+  max-width: 800px;
+}
+.min-width {
+  min-width: 90%;
+}
+.width {
+  width: 60%;
+}
+.widthpx{
+  width: 200px;
+}
+.alignment-body {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 20px; 
+  margin-right: 20px;
+  align-items: baseline;
+}
+.display-flex {
+  display: flex;
+}
+.margin-left {
+  margin-left: 20px;
+}
+.margin-top {
+  margin-top:20px;
+}
+.margin-right {
+  max-width: 150px;
+  margin-right: 0px
+}
+.btn {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: #f7abda; /* фон кнопки */
+  padding: 10px 20px; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  border: 0;
+  border-radius: 30px;
+  width: 130px;
+} 
+.btn:hover { background: #dd5aab; } /* при наведении курсора мышки */
+.btn:active { background: #992c6f; } /* при нажатии */
